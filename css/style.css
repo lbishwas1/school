@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+body{
+    font-family: 'Open Sans';
+}
+.carousel-inner{
+    height:600px;
+    margin-bottom: 50px;
+}
+.container h1{
+    text-align: center;
+}
+.nav-item{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+ .footer{
+    background-color: turquoise;
+    height:60px;
+    width: 100%;
+}
+.life img{
+    width:400px;
+    height:220px;
+  margin-bottom: 40px;
+}
+.row{
+    margin-top:60px;
+    margin-bottom: 40px;
+}
+.title{}
