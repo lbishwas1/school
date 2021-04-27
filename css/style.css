@@ -24,7 +24,7 @@ h1{
     width: 100%;
 }
 .life img{
-    width:400px;
+    max-width:350px;
     height:220px;
   margin-bottom: 40px;
 }
@@ -32,4 +32,33 @@ h1{
     margin-top:60px;
     margin-bottom: 40px;
 }
-.title{}
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-inner{
+        width:100%;
+        max-height: 200px !important;
+      }
+      .life img{
+        max-width:280px;
+        height:220px;
+      margin-bottom: 40px;
+    }
+  
+  }
+  @media (min-width: 992px) { 
+    .life img{
+        max-width:280px;
+        height:220px;
+      margin-bottom: 40px;
+    } 
+  }
+
+
+  .feat{
+      margin-bottom: 20px;
+  }
+
+.title{
+    margin-bottom: 40px !important;
+}
